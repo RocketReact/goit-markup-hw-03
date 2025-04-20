@@ -10,30 +10,37 @@ body {
     background-color: #FFFFFF;
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1440px;
-    margin: 0 156px;
 
-}
 h1, h2, h3, p {
     margin: 0;
 }
 ul {
     margin:0;
     padding-left: 0;
+    list-style: none;
 }
 img {
     display: block;
 }
 
+.header {
+    width: 100%;
+
+}
 .header :focus, .header:active {
-    border: 1px #E7E9FC
+    border: 1px #E7E9FC;
+
 }
 .header :hover {
     border: 2px #E7E9FC
+}
+.container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 156px;
 }
 .logo {
     font-family: Raleway, sans-serif;
@@ -100,6 +107,9 @@ img {
     justify-content: center;
     background-color: #2E2F42;
     height: 600px;
+    width: auto;
+
+
 
 }
 .hero .container {
@@ -107,6 +117,8 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 .hero-main {
     font-size: 56px;
@@ -125,19 +137,33 @@ img {
     letter-spacing: 0.04em;
     padding: 16px 32px;
     border:  none;
-    border-radius: 5px;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.15);
 
 }
 .btn-hero-img:hover, .btn-hero-img:focus {
     background-color: #404BBF;
     cursor: pointer;
 }
+
+.second-section-list {
+    display: flex;
+    flex-direction: row;
+    gap:24px;
+    justify-self: flex-start;
+    padding: 120px 0;
+}
+.second-section-list li {
+    width: 264px;
+}
+
 .title-third {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-bottom: 8px;
 
 }
 .title-second {
@@ -147,6 +173,8 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    display: none;
+
 }
 .wt-we-do-paragraph {
     color: #434455;
