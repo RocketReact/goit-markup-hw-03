@@ -148,7 +148,7 @@ img {
     gap:24px;
 }
 .second-section-list li {
-    width: 264px;
+    width: 29.4ch;
 
 }
 
@@ -236,7 +236,7 @@ img {
 
 .footer {
     background-color: #2e2f42;
-    padding: 101.5px 0 100px 0;
+    padding: 6.34375em 0 100px 0;
 }
 .footer-content {
     display: flex;
@@ -245,7 +245,8 @@ img {
 }
 .footer-paragraph {
     color: #F4F4FD;
-    max-width: 264px;
+    width: 100%;
+    max-width: 29.4ch;
 }
 .span-second {
     color: #f4f4fd;
