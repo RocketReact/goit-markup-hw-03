@@ -247,9 +247,16 @@ img {
 
 .footer {
     background-color: #2e2f42;
+    padding: 101.5px 0 100px 0;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap:16px;
 }
 .footer-paragraph {
     color: #F4F4FD;
+    max-width: 264px;
 }
 .span-second {
     color: #f4f4fd;
