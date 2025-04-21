@@ -27,21 +27,20 @@ img {
 .container {
     display: flex;
     margin: 0 auto;
-    padding: 0 156px;
     align-items: center;
+    width: 1158px;
+    padding: 0 15px;
 }
-
 
 .header {
     border-bottom: 1px solid #E7E9FC;
 }
 .content-wrapper {
-    width: 1158px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
-    padding: 0 15px
+
 
 }
 
