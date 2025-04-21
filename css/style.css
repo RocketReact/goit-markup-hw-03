@@ -31,19 +31,17 @@ img {
 
 }
 
-.header-content {
+
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
+.content-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
-.header :focus, .header:active {
-    border: 1px #E7E9FC;
 
-}
-.header :hover {
-    border: 2px #E7E9FC
-}
 .logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
