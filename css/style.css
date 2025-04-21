@@ -27,12 +27,15 @@ img {
 .container {
     margin: 0 auto;
     padding: 0 156px;
+    align-items: center;
+
 }
 
 .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 .header :focus, .header:active {
     border: 1px #E7E9FC;
@@ -112,8 +115,9 @@ img {
     font-weight: 700;
     line-height: 1.07;
     color: white;
+    max-width: 18ch;
+    height: auto;
     letter-spacing: 0.02em;
-    width: 496px;
     margin-bottom: 48px;
 }
 .btn-hero-img {
@@ -133,21 +137,21 @@ img {
     cursor: pointer;
 }
 
+.wt-we-do {
+    display: flex;
+    justify-content: space-between;
+
+}
 .second-section-list {
     display: flex;
     flex-direction: row;
     gap:24px;
-    justify-self: flex-start;
 }
 .second-section-list li {
     width: 264px;
+
 }
 
-.wt-we-do {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 .title-second {
     font-size: 36px;
     line-height: 1.1;
@@ -156,6 +160,7 @@ img {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+
 }
 
 .title-third {
@@ -165,19 +170,21 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    text-align: center;
+    text-align: start;
 }
 .wt-we-do-paragraph {
     color: #434455;
-    text-align: center;
     margin-bottom: 32px;
+    text-align: start;
 }
 .our-team {
     display: flex;
     flex-direction: column;
-    align-items: center;
-
 }
+.text-center .title-third, .text-center .wt-we-do-paragraph {
+    text-align: center;
+}
+
 .color-bg-our-team {
     background-color: #F4F4FD;
 }
