@@ -140,7 +140,6 @@ img {
 }
 .second-section-list {
     display: flex;
-    flex-direction: row;
     gap:24px;
 }
 .element-li {
