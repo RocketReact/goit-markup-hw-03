@@ -153,16 +153,19 @@ img {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+
+}
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
+    margin: -1px;
     padding: 0;
     overflow: hidden;
     clip: rect(0 0 0 0);
     white-space: nowrap;
     border: 0;
 }
-
 .title-third {
     font-weight: 500;
     font-size: 20px;
