@@ -45,6 +45,7 @@ img {
 .column {
   flex-direction: column;
 }
+
 /* header */
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -262,7 +263,6 @@ img {
 .span-second {
   color: var(--lightest-blue);
 }
-
 .footer-paragraph {
   color: var(--lightest-blue);
   width: 100%;
