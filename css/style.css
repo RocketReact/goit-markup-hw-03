@@ -134,10 +134,7 @@ img {
 }
 
 /* second section*/
-.wt-we-do {
-    display: flex;
-    justify-content: space-between;
-}
+
 .second-section-list {
     display: flex;
     gap:24px;
