@@ -185,7 +185,6 @@ img {
 .text-center .title-third, .text-center .wt-we-do-paragraph {
     text-align: center;
 }
-
 .color-bg-our-team {
     background-color: #F4F4FD;
 }
@@ -207,6 +206,7 @@ img {
             0 1px 6px 0 #2e2f4214
 }
 
+/* fourth section */
 .portfolio-grid {
     display: flex;
     flex-wrap: wrap;
@@ -215,7 +215,6 @@ img {
 .portfolio-grid li {
     width: calc((100% - 48px) / 3);
 }
-
 
 .portfolio-grid img {
     width: 100%;
@@ -248,9 +247,4 @@ img {
 }
 .span-second {
     color: #f4f4fd;
-}
-
-.portfolio-column {
-    display: flex;
-    flex-direction: column;
 }
