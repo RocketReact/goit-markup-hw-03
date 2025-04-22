@@ -31,6 +31,9 @@ img {
     width: 1158px;
     padding: 0 15px;
 }
+.column {
+    flex-direction: column;
+}
 
 .header {
     border-bottom: 1px solid #E7E9FC;
