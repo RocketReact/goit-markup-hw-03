@@ -179,6 +179,9 @@ img {
 .title-section-third {
     margin-bottom: 72px;
 }
+.text-center {
+    padding: 32px 0;
+}
 .text-center .title-third, .text-center .wt-we-do-paragraph {
     text-align: center;
 }
@@ -204,10 +207,6 @@ img {
             0 1px 6px 0 #2e2f4214
 }
 
-.li-team-member img {
-  margin-bottom: 32px;
-
-}
 .portfolio-grid {
     display: flex;
     flex-wrap: wrap;
