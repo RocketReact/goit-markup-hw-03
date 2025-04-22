@@ -241,14 +241,12 @@ img {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.inline-block {
-  display: inline-block;
-}
 .bottom-logo {
   margin-bottom: 16px;
   margin-right: auto;
 }
 .span-second {
+  display: inline-block;
   color: #f4f4fd;
 }
 .footer-paragraph {
