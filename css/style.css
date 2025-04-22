@@ -38,6 +38,7 @@ img {
 .navigation {
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 .logo {
     font-family: Raleway, sans-serif;
@@ -64,32 +65,33 @@ img {
     list-style-type: none;
 }
 .navigation-a {
-
+    padding: 24px 0;
     color:#2E2F42;
 }
-.navigation-a:hover, .nav-a:focus {
+.navigation-a:hover, .navigation-a:focus {
     color: #404bbf;
 }
-.address {
+.contacts-info {
     font-style: normal;
 }
-.address ul {
-    display: flex;
-    gap:40px;
-    align-items: center;
-}
-.address-a {
+
+.contacts-info-a {
     font-style: normal;
     font-weight: 400;
     color:#434455;
 }
-.address-a:hover, .address-a:focus {
+.contacts-info-a:hover, .contacts-info-a:focus {
     color:#404bbf;
 }
-.address li {
+.contacts-info li {
     list-style-type: none;
     flex-shrink: 0;
+}
 
+.list-contacts {
+    display: flex;
+    gap:40px;
+    align-items: center;
 }
 .hero {
     display: flex;
