@@ -134,7 +134,6 @@ img {
 }
 
 /* second section*/
-
 .second-section-list {
     display: flex;
     gap:24px;
@@ -150,7 +149,6 @@ img {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
-
 }
 .visually-hidden {
     position: absolute;
