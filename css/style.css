@@ -236,6 +236,9 @@ img {
     padding: 100px 0;
 }
 .bottom-logo {
+    display: inline-block;
+    margin-bottom:  16px;
+    margin-right: auto;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -244,10 +247,6 @@ img {
     text-transform: uppercase;
     text-decoration: none;
     color: #4d5ae5;
-    align-content: center;
-    display: inline-block;
-    margin-bottom:  16px;
-    margin-right: auto;
 }
 .footer-paragraph {
     color: #F4F4FD;
