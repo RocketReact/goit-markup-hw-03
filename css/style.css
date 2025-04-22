@@ -238,11 +238,13 @@ img {
 .bottom-logo {
     display: inline-block;
     margin-bottom:  16px;
+    margin-right: auto;
 }
 .footer-paragraph {
     color: #F4F4FD;
     width: 100%;
-    max-width: 264px
+    max-width: 264px;
+    margin-right: auto;
 }
 .span-second {
     color: #f4f4fd;
