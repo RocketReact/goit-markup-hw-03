@@ -176,9 +176,8 @@ img {
 }
 
 /* third section*/
-.our-team {
-    display: flex;
-    flex-direction: column;
+.title-section-third {
+    margin-bottom: 72px;
 }
 .text-center .title-third, .text-center .wt-we-do-paragraph {
     text-align: center;
